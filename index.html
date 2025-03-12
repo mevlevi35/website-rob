@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Pelajari kecerdasan buatan dari nol! Panduan lengkap AI, Machine Learning, dan algoritma cerdas untuk pemula.">
+        <title>Belajar AI: Panduan Dasar Kecerdasan Buatan</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Membentuk Peradaban Baru</h1>
+            <p>"AI: Kecerdasan yang Berevolusi, Masa Depan yang Terbentuk."</p>
+        </header>
+        
+        <section class="gallery">
+            <div class="card" onclick="showModal(
+                'Kecerdasan Buatan', 
+                'AI telah mengubah cara manusia bekerja dan berpikir.', 
+                ['AVRbUiO1M5A', 'aey4xkrz7zE', 'NnGB0Hhm8Yg']
+            )">
+                <img src="logoai1.webp" alt="AI">
+                <h2>Kecerdasan Buatan</h2>
+                <p>Temukan bagaimana AI mengubah dunia kita.</p>
+            </div>
+
+            <div class="card" onclick="showModal(
+                'Eksplorasi Ruang Angkasa', 
+                'Manusia semakin jauh menjelajah luar angkasa.', 
+                ['wupToqz1e2g', 'CdddV7VNCNI', '2xkODJbAY6Q']
+            )">
+                <img src="angkasa2.webp" alt="Space">
+                <h2>Eksplorasi Ruang Angkasa</h2>
+                <p>Manusia menjelajahi luar angkasa lebih jauh dari sebelumnya.</p>
+            </div>
+
+            <div class="card" onclick="showModal(
+                'Revolusi Robotik', 
+                'Robot canggih mulai membantu manusia di berbagai sektor.', 
+                ['d1Ol06RPNko', 'YaM-Y8RT4us', 'B24-Y2IIM44']
+            )">
+                <img src="robot2.webp" alt="Robotics">
+                <h2>Revolusi Robotik</h2>
+                <p>Robot canggih mulai membantu kehidupan manusia.</p>
+            </div>
+        </section>
+
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content" styles="display: none;">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-text"></p>
+                <div id="video-selector"></div>
+                <div id="modal-video-container"></div>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+
+    </body>
+</html>
