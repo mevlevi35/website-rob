@@ -41,25 +41,6 @@ header:hover {
     letter-spacing: 4px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    background: #333;
-}
-
-nav ul li {
-    margin: 0;
-    padding: 10px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-
 
 .gallery {
     display: flex;
@@ -195,6 +176,56 @@ iframe {
         height: 250px;
     }
 }
+
+
+/* Gaya Umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+    background: #444;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya Khusus About */
 .about-container {
     text-align: center;
 }
@@ -251,6 +282,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 
 
 
