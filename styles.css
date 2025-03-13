@@ -176,7 +176,62 @@ iframe {
         height: 250px;
     }
 }
+.about-container {
+    text-align: center;
+}
 
+.about-container h2 {
+    color: #0073e6;
+}
+
+.about-container p {
+    font-size: 18px;
+}
+
+/* Gaya Khusus Contact */
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background: #005bb5;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #444;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
 
 
 
